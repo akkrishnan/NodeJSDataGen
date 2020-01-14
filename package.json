@@ -1,0 +1,38 @@
+{
+  "name": "nodejsdatagen",
+  "version": "1.0.0",
+  "description": "node js data generation ",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csvjson": "^5.1.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "http-server": "^0.12.1",
+    "json-stringify-safe": "^5.0.1",
+    "json2csv": "^4.5.4",
+    "jsonstream": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start" : "nodemon server.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akkrishnan/NodeJSDataGen.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "data",
+    "generator",
+    "service"
+  ],
+  "author": "krish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akkrishnan/NodeJSDataGen/issues"
+  },
+  "homepage": "https://github.com/akkrishnan/NodeJSDataGen#readme"
+}
